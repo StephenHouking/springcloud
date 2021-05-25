@@ -20,7 +20,7 @@ import javax.annotation.Resource;
 @RequestMapping("/web")
 public class OrderContorller {
 
-    public static final String PAYMENT_URL = "http://localhost:8001";
+    public static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";
 
     @Resource
     private RestTemplate restTemplate;
