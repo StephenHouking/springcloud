@@ -1,0 +1,46 @@
+*.class
+*.log
+*.out
+.tern-project
+.sts4-cache
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+/.idea/
+
+# Eclipse project files
+/.settings/
+.classpath
+.springBeans
+.project
+.settings/
+
+*/.settings/
+*/.classpath
+*/.project
+*/.factorypath
+
+#target files
+target/
+*/target/
+
+#mac file
+.DS_STORE
+.DS_Store
+
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
