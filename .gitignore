@@ -44,3 +44,7 @@ target/
 .settings
 .springBeans
 .sts4-cache
+
+compiler.xml
+encodings.xml
+workspace.xml
