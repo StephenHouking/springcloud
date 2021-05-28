@@ -1,22 +1,18 @@
-package com.atguigu.springcloud;
+package com.atgiugu.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @Author houjing
- * @create 2021/5/12 16:38
+ * @create 2021/5/28 16:07
  */
 @SpringBootApplication
-@EnableEurekaClient
-@EnableDiscoveryClient
-public class PaymentMain8001 {
-
+@EnableDiscoveryClient // 该注解用于向使用console或者zookeeper作为注册中心时注册服务
+public class PaymentMain8004 {
 
     public static void main(String[] args) {
-
-        SpringApplication.run(PaymentMain8001.class, args);
+        SpringApplication.run(PaymentMain8004.class, args);
     }
 }
